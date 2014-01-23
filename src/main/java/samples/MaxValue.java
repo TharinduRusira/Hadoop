@@ -13,10 +13,11 @@ import sorter.SortMapper;
 import sorter.SortReducer;
 
 /**
- * programs in samples package closely follow the examples provided in 
+ * DISCLAIMER
+ * program code in samples package are taken from the examples provided in 
  * Hadoop The Definitive Guide 3rd Edition
  * 
- * @author TharinduRusira
+ * 
  *
  */
 public class MaxValue {
