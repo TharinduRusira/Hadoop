@@ -22,6 +22,12 @@ import sorter.SortReducer;
 public class MaxValue {
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
+		
+		if (args.length != 2) {
+			System.err.println("Usage: MaxTemperature <input path> <output path>");
+			System.exit(-1); 
+		}
+		
 		Job  job = new Job();
 		job.setJarByClass(MapRedSort.class);
 		job.setJobName("Map Reduce sort");
